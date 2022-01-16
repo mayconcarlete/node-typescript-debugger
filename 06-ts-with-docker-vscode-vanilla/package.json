@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "debug-docker": "node --inspect=0.0.0.0 index.js",
+    "build": "tsc",
+    "debug-typescript-docker": "node --inspect=0.0.0.0 index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

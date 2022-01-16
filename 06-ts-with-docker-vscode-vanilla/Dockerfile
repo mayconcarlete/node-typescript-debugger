@@ -5,6 +5,7 @@ WORKDIR /home/app
 COPY . .
 
 RUN npm install
+RUN npm run build
 
 FROM node:17-alpine
 
