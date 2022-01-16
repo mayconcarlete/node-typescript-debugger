@@ -2,10 +2,15 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Vscode: Attach to Node",
+      "name": "Docker: Attach to Node",
       "type": "node",
       "request": "attach",
-      "program": "${workspaceFolder/01-js-with-terminal/index.js}"
+      "restart": true,
+      "port": 9229,
+      "address": "localhost",
+      "localRoot": "${workspaceFolder}/05-js-with-docker-vscode",
+      "remoteRoot": "/home/app",
+      "protocol": "inspector"
     }
   ]
 }
