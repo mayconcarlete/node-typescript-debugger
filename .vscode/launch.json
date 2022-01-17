@@ -8,9 +8,9 @@
       "restart": true,
       "port": 9229,
       "address": "localhost",
-      "localRoot": "${workspaceFolder}/05-js-with-docker-vscode",
+      "localRoot": "${workspaceFolder}/06-ts-with-docker-vscode-vanilla/dist",
       "remoteRoot": "/home/app",
       "protocol": "inspector"
     }
   ]
-}
+ }

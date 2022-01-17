@@ -1,8 +1,8 @@
 debugger
-import express, {Request, Response} from 'express'
+import express, {Request, Response, json} from 'express'
 const app = express()
 
-app.use(express.json())
+app.use(json())
 
 const multiply = (n1:number, n2: number):number => n1 * n2
 
