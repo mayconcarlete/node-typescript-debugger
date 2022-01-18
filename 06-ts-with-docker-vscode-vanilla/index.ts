@@ -1,6 +1,9 @@
 debugger
 import express, {Request, Response, json} from 'express'
 const app = express()
+import hello from './helper'
+
+hello()
 
 app.use(json())
 
