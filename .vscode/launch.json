@@ -1,16 +1,28 @@
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Docker: Attach to Node",
+//       "type": "node",
+//       "request": "attach",
+//       "restart": true,
+//       "port": 9229,
+//       "address": "localhost",
+//       "localRoot": "${workspaceFolder}/06-ts-with-docker-vscode-vanilla/dist",
+//       "remoteRoot": "/home/app",
+//       "protocol": "inspector"
+//     }
+//   ]
+//  }
+
 {
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Docker: Attach to Node",
+      "name": "Vscode: Attach to Node",
       "type": "node",
       "request": "attach",
-      "restart": true,
-      "port": 9229,
-      "address": "localhost",
-      "localRoot": "${workspaceFolder}/06-ts-with-docker-vscode-vanilla/dist",
-      "remoteRoot": "/home/app",
-      "protocol": "inspector"
+      "program": "${workspaceFolder/03-js-with-vscode/index.js}"
     }
   ]
  }
