@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "debug-terminal": "node inspect 01-js-with-terminal/index.js",
-    "debug-chrome": "node --inspect 02-js-with-chrome/index.js",
-    "debug-vscode": "node --inspect 03-js-with-vscode/index.js",
+    "debug": "node inspect 01-js-with-terminal/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
